@@ -1,0 +1,15 @@
+{
+  "name": "susanin-mailer",
+  "version": "1.0.0",
+  "description": "Service to send emails to addresses from susanin-store",
+  "main": "susanin-mailer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danny Berger",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.4.10",
+    "zeromq": "^5.2.0"
+  }
+}
